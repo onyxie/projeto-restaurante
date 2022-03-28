@@ -2,11 +2,12 @@ body {
     width: 940px;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    background: white;
 }
 
 nav {
     background: #000000;
-    position:absolute;
+    position:fixed;
     width: 250px;
     height: 100%;
     
@@ -22,7 +23,7 @@ nav li {
 }
 nav a {
     text-transform: uppercase;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
@@ -37,6 +38,31 @@ main {
     width: 690px;
     height: 100%;
     left:250px;
+
+}
+
+#banner {
+    width: 100%;
+    height: 210px;
+    opacity: 80%;
+
+}
+
+.bem-vindo h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 2em 0 1em 0;
+    font-weight: bold;
+}
+.bem-vindo p {
+    text-align: center;
+    padding: 0 3em 3em 3em;
+}
+
+#foto-home {
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 0 3em;
 }
 
 .destaques {
@@ -47,12 +73,11 @@ main {
 .destaques h2 {
     font-size: 30px;
     text-align: center;
-    margin: 1em 0 0 0;
     font-weight: bold;
 }
 .produtos {
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 3em 0;
 }
 .produtos li {
     display:inline-block;
