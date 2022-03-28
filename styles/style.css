@@ -1,0 +1,32 @@
+body {
+    width: 940px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+nav {
+    background: #000000;
+    position:absolute;
+    width: 250px;
+    height: 100%;
+    
+}
+#logo {
+    width: 250px;
+}
+
+nav li {
+    display:block;
+    text-align: center;
+    margin: 0 0 30px;
+}
+nav a {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #2A9D8F;
+}
