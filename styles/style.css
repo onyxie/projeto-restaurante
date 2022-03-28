@@ -30,9 +30,17 @@ nav a {
 nav a:hover {
     color: #2A9D8F;
 }
+
+main {
+    position: absolute;
+    display: inline-block;
+    width: 690px;
+    height: 100%;
+    left:250px;
+}
+
 .destaques {
     position: absolute;
-    left: 280px;
     width: 690px;
 }
 
