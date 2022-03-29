@@ -63,7 +63,7 @@ main {
 
 }
 
-.bem-vindo h1 {
+.bem-vindo h1, .mensagem h1 {
     font-size: 30px;
     text-align: center;
     padding: 2em 0 1em 0;
@@ -123,4 +123,47 @@ main {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+.mensagem p {
+    text-align: center;
+    padding: 0 3em 0 3em;
+}
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align:center;
+}
+form legend {
+    padding: 1em 0 0.5em;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 2em 1em 0 1em;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #2A9D8F;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border:  none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 1em 0 3em;
+}
+.enviar:hover {
+    background: #000000;
 }
