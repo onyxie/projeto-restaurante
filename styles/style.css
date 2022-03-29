@@ -1,5 +1,5 @@
 body {
-    width: 940px;
+    width: 640px;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,7 +29,7 @@ nav a{
 nav p {
     display:block;
     text-align: center;
-    margin: 380px 0 10px;
+    margin: 400px 0 10px;
     color: rgb(255, 255, 255);
     font-size: 15px;
 }
@@ -63,13 +63,13 @@ main {
 
 }
 
-.bem-vindo h1, .mensagem h1 {
+.bem-vindo h1, .mensagem h1, .sobre-nos h1 {
     font-size: 30px;
     text-align: center;
     padding: 2em 0 1em 0;
     font-weight: bold;
 }
-.bem-vindo p {
+.bem-vindo p, .sobre-nos p {
     text-align: center;
     padding: 0 3em 3em 3em;
 }
@@ -135,7 +135,7 @@ form {
 form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 30px 0 10px;
     text-align:center;
 }
 form legend {
@@ -149,7 +149,7 @@ form legend {
     width: 50%;
 }
 .checkbox {
-    margin: 2em 1em 0 1em;
+    margin: 1em 1em 0 1em;
 }
 .enviar {
     width: 40%;
@@ -166,4 +166,48 @@ form legend {
 }
 .enviar:hover {
     background: #000000;
+}
+
+.titulo-principal {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 1em 0;
+    font-weight: bold;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.lista-serviços {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 0 0 60px;
+}
+
+.itens {
+    line-height: 2;
+}
+
+.itens::before {
+    content: "❃ ";
+}
+
+.img-serviços {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 80%;
+}
+
+.mapa p {
+    margin: 0 0 2em;
 }
