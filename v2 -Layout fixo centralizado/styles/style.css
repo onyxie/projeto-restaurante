@@ -1,12 +1,13 @@
 body {
-    width: 640px;
+    width: 940px;
+    margin: auto;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
 nav {
     background: #000000;
-    position:fixed;
+    position: fixed;
     width: 250px;
     height: 100%;
 }
@@ -29,7 +30,7 @@ nav a{
 nav p {
     display:block;
     text-align: center;
-    margin: 400px 0 10px;
+    margin: 420px 0 10px;
     color: rgb(255, 255, 255);
     font-size: 15px;
 }
@@ -47,12 +48,12 @@ nav i:hover {
 }
 
 main {
-    position: absolute;
+    position: relative;
     display: inline-block;
     width: 690px;
     height: 100%;
-    left:250px;
-
+    background-color: white;
+    margin: 0 0 0 250px;
 }
 
 #banner {
