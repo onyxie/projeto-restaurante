@@ -1,16 +1,19 @@
 body {
-    height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    background: #000000;
-    position:fixed;
-    width: 250px;
-    height: 100%;
+nav { 
+    background: #000000; 
+    position:fixed; 
+    display: inline-block;
+    width: 40%; 
+    max-width: 250px;
+    height: 100%; 
+    
 }
+
 #logo {
-    width: 250px;
+    width: 100%;
 }
 
 nav li{
@@ -22,16 +25,20 @@ nav a{
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 100%;
     text-decoration: none;
 }
+
+
 nav p {
+    position: relative;
     display:block;
     text-align: center;
-    margin: 400px 0 10px;
+    margin: 0 0 10px;
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 100%;
 }
+
 nav i {
     color: rgb(255, 255, 255);
     padding: 0 10px;
@@ -46,11 +53,8 @@ nav i:hover {
 }
 
 main {
-    position: absolute;
-    width: auto;
+    margin-left: 250px;
     height: 100%;
-    left:250px;
-
 }
 
 #banner {
@@ -78,8 +82,8 @@ main {
 }
 
 .destaques {
-    position: static;
-    width: 690px;
+  
+    width: 100%;
 }
 
 .destaques h2 {
@@ -195,3 +199,4 @@ form legend {
     padding: 1em 0 1em 0;
     font-weight: bold;
 }
+
