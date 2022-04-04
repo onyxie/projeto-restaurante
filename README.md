@@ -1,12 +1,4 @@
 # projeto-restaurante
-<style>
-  a {
-    a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-</style>
 
 <a href="https://onyxie.github.io/v1%20-%20Layout%20fixo%20a%20esquerda/index.html" target="_blank">Versão 1 - Layout fixo à esquerda</a>
 
